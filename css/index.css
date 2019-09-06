@@ -71,12 +71,61 @@ p {
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+#header1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+#nav{
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px; 
+}
+
+
+
+
+
+
+nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 20px;
 }
 
 .top-content .text-container {
@@ -112,6 +161,49 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1){
+background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+background-color:darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+background-color: dodgerblue;
+}
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +235,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page css starts here that already hasnt applied*/
+
+.imgheader{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header2{
+    padding: 20px;
+}
+
+.info{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgboxes{
+    height: 400px;
+    width: 40%;
+    border-bottom: 2px dotted gray;
+    margin-bottom: 20px;
+}
+
+.learn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.bottomText{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
